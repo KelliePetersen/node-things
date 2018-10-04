@@ -1,4 +1,4 @@
-const reducer = (accumulator, currentValue) => accumulator + currentValue;
+const reducer = (acc, cur) => acc + cur;
 
 const grader = function(array) {
   console.log(Math.round(array.reduce(reducer) / array.length));
